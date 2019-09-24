@@ -1,0 +1,29 @@
+{
+  "name": "opticalcharacterrecognition",
+  "version": "1.0.0",
+  "description": "Recognize an image and then extract text from it",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birnadam/OpticalCharacterRecognition.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birnadam/OpticalCharacterRecognition/issues"
+  },
+  "homepage": "https://github.com/birnadam/OpticalCharacterRecognition#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "tesseract.js": "^2.0.0-alpha.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
